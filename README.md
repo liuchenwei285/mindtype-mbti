@@ -60,6 +60,10 @@ outputs/MindType-standalone.html
 
 单文件版会把 JavaScript 和 CSS 内联进同一个 HTML 文件中，答题进度和结果仍然保存在浏览器本地。
 
+### 旧浏览器兼容
+
+构建过程会自动展平 Tailwind v4 的 CSS @layer 层。这样旧版荣耀浏览器、旧 Chromium 内核和其他不完全支持 CSS 级联层的浏览器也能正常显示样式。
+
 ## 测试
 
 ### 单元测试
@@ -167,5 +171,6 @@ localStorage 键名：
 - 分享卡片通过浏览器 Canvas 本地生成，不需要上传图片。
 - 端到端测试使用本机 Chrome；其他浏览器可通过 `CHROME_PATH` 指定 Chromium 内核浏览器路径。
 - 测试结果是自评倾向，不应作为医学、心理或职业诊断依据。
+
 
 

@@ -2,6 +2,14 @@
 
 > 🌐 在线体验：https://liuchenwei285.github.io/mindtype-mbti/
 
+## 预览
+
+![首页](docs/screenshots/home.jpg)
+![答题页](docs/screenshots/quiz.png)
+![结果页](docs/screenshots/result.jpg)
+![分享卡片](docs/screenshots/share-card.jpg)
+<img src="docs/screenshots/result-mobile.jpg" width="300" alt="移动端结果页">
+
 一个现代、响应式的 MBTI 性格测试 Web App。用户完成 48 道原创情境题后，网站会按 E/I、S/N、T/F、J/P 四个维度实时计算倾向，并展示对应的 16 型人格报告、四维度百分比和可下载的分享卡片。
 
 > MBTI 测试结果仅用于自我探索与娱乐参考，不代表严格的心理学诊断。
